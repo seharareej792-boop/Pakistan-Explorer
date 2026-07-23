@@ -359,4 +359,31 @@ export function searchLocations(q: string, limit = 8) {
     natural: ["Jallo Park"],
     imageUrls: ["https://images.pexels.com/photos/1448132/pexels-photo-1448132.jpeg"]
   }
+];export const locations: Location[] = [
+  {
+    slug: "karachi",
+    name: "Karachi",
+    province: "Sindh",
+    type: "Urban",
+    overview: "Pakistan ka sabse bara shehar aur economic hub",
+    attractions: ["Clifton Beach", "Mazar-e-Quaid", "Port Grand"],
+    historical: ["Mazar-e-Quaid", "Frere Hall"],
+    natural: ["Clifton Beach", "Hawksbay"],
+    imageUrls: [
+      "https://images.pexels.com/photos/1558582/pexels-photo-1558582.jpeg"
+    ]
+  },
+  {
+    slug: "lahore", 
+    name: "Lahore",
+    province: "Punjab",
+    type: "Cultural",
+    overview: "Pakistan ka dil aur culture ka markaz",
+    attractions: ["Badshahi Masjid", "Minar-e-Pakistan", "Food Street"],
+    historical: ["Badshahi Masjid", "Lahore Fort"],
+    natural: ["Jallo Park"],
+    imageUrls: [
+      "https://images.pexels.com/photos/1448132/pexels-photo-1448132.jpeg"
+    ]
+  }
 ];
