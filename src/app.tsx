@@ -3,7 +3,7 @@ export default function App() {
     <div className="relative min-h-screen w-full">
       <div 
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('TUMHARI_MAP_IMAGE_KA_LINK')" }}
+        style={{ backgroundImage: "url('https://i.postimg.cc/TPjScfTJ/Whats-App-Image-2026-07-23-at-6-36-21-AM.jpg')" }}
       />
       <div className="absolute inset-0 bg-black/60"></div>
 
